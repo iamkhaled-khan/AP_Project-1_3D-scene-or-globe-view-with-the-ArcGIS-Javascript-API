@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>3D scene or globe view with the ArcGIS Javascript API</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>STL 3D Schools & Neighborhoods</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.33/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.33/"></script>
+
+  <style>
+    html, body, #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+    button {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 6px 12px;
+      margin: 4px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    button.off {
+      opacity: 0.85;
+    }
+    button:hover {
+      opacity: 1;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div id="viewDiv"></div>
+  <button id="stlCenter" class="off">Center STL</button>
+</body>
+<script src="main.js"></script>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
